@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#102b91"><meta name="description" content="Register your interest in courses at Aakash Institute Khamgaon."><title>Admission Enquiry | Aakash Institute Khamgaon</title><link rel="stylesheet" href="assets/site.css"></head>
+<body data-page="admissions"><div id="site-header"></div><main>
+  <section class="page-hero admission-hero wrap"><p class="eyebrow">ADMISSIONS · KHAMGAON</p><h1>Your next step<br>starts with <span>a hello.</span></h1><p>Tell us a little about the student and the course you’re considering. The branch can follow up to discuss available options.</p><div class="page-hero-rule"></div><span class="page-count">ENQUIRY FORM · ABOUT 2 MINUTES</span></section>
+  <section class="section wrap form-layout"><aside class="form-aside"><p class="eyebrow">LET’S GET TO KNOW YOU</p><h2>We’ll help you find the right place to begin.</h2><p>Share your details and a member of the admissions team can get in touch.</p><div class="privacy-note"><span>◎</span><p>Your details are stored in the Khamgaon admissions database so the branch team can respond to this enquiry. Share only information needed for your course enquiry.</p></div></aside>
+    <form id="admission-form" class="admission-form">
+      <div class="form-heading"><span>STUDENT ENQUIRY</span><b>01 / 01</b></div>
+      <div class="form-grid">
+        <label>Student’s full name <span>*</span><input name="student_name" autocomplete="name" required maxlength="100" placeholder="Enter student’s name"></label>
+        <label>Parent / guardian name <span>*</span><input name="parent_name" required maxlength="100" placeholder="Enter parent or guardian’s name"></label>
+        <label>Contact number <span>*</span><input name="phone" type="tel" autocomplete="tel" required pattern="[0-9+() -]{8,18}" maxlength="18" placeholder="10-digit mobile number"></label>
+        <label>Email address <input name="email" type="email" autocomplete="email" maxlength="150" placeholder="you@example.com"></label>
+        <label>Course you’re interested in <span>*</span><select name="course" id="course-select" required><option value="">Choose a course</option><option>NEET</option><option>JEE</option><option>MHT-CET</option><option>Foundation</option><option>Not sure yet</option></select></label>
+        <label>Student’s current class <span>*</span><select name="current_class" required><option value="">Choose class</option><option>Class 7</option><option>Class 8</option><option>Class 9</option><option>Class 10</option><option>Class 11</option><option>Class 12</option><option>Class 12 completed</option><option>Other</option></select></label>
+        <label>Previous school / board <input name="previous_school" maxlength="120" placeholder="School or board (optional)"></label>
+        <label>Most recent academic result <input name="academic_info" maxlength="160" placeholder="Class, year and result (optional)"></label>
+        <label class="full-field">Anything else we should know? <textarea name="message" rows="3" maxlength="500" placeholder="Your goals, preferred callback time, or a question for the branch"></textarea></label>
+      </div>
+      <div class="form-bottom"><p>Fields marked <span>*</span> are required.</p><button class="button button-blue" type="submit">Send enquiry <span>↗</span></button></div>
+      <div id="form-message" class="form-message" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+</main><div id="site-footer"></div><script src="assets/site.js"></script><script src="assets/admission.js"></script></body></html>
